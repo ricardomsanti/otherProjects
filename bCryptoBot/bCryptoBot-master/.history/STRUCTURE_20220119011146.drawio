@@ -1,0 +1,72 @@
+<mxfile host="65bd71144e">
+    <diagram id="z_GLGGrmAzVfjHXmNY3D" name="Página-1">
+        <mxGraphModel dx="925" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;BOT_PROJECT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="FUNC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="380" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="FUNC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="300" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="PREP_FUNC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="END_FUNC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="160" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="SCAN_FUNC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="160" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="ACTION_FUNC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="160" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="startGame" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=24;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="240" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="abrirNavegador" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=24;" parent="32" vertex="1">
+                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="logCarteira" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=24;" parent="32" vertex="1">
+                    <mxGeometry y="60" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="logGame" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=24;" parent="32" vertex="1">
+                    <mxGeometry y="90" width="200" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="RrhqgqR4n1ZO1VY53xuC" name="Página-2">
+        <mxGraphModel dx="2246" dy="2746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="nVR9_mXxGScKX9Hw7AWW-0"/>
+                <mxCell id="nVR9_mXxGScKX9Hw7AWW-1" parent="nVR9_mXxGScKX9Hw7AWW-0"/>
+                <mxCell id="9SXsQSm-4WU4x8w_OT-L-8" value="&lt;h1&gt;&lt;span&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;boxScan&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font size=&quot;3&quot;&gt;Análise do custo de faturamento de cada mapa&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" parent="nVR9_mXxGScKX9Hw7AWW-1" vertex="1">
+                    <mxGeometry y="10" width="410" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SXsQSm-4WU4x8w_OT-L-9" value="&lt;h1&gt;&lt;span&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;heroScan&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font size=&quot;3&quot;&gt;Análise individual e combinada do redimento do squad&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" parent="nVR9_mXxGScKX9Hw7AWW-1" vertex="1">
+                    <mxGeometry x="470" y="10" width="410" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SXsQSm-4WU4x8w_OT-L-0" value="&lt;h1&gt;&lt;span&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;makePlan&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;Baseado nos dados prévisos, elaboração do plano a ser seguido na rodada&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" vertex="1" parent="nVR9_mXxGScKX9Hw7AWW-1">
+                    <mxGeometry y="310" width="560" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SXsQSm-4WU4x8w_OT-L-4" value="&lt;h1&gt;&lt;span&gt;&lt;font style=&quot;font-size: 36px&quot;&gt;runRound&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;Execução da rodada com set de regras statico e dinâmico&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" vertex="1" parent="nVR9_mXxGScKX9Hw7AWW-1">
+                    <mxGeometry x="630" y="310" width="560" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SXsQSm-4WU4x8w_OT-L-11" value="&lt;h1&gt;&lt;span style=&quot;font-size: 36px&quot;&gt;logRound&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;Estatísticas da rodada&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" vertex="1" parent="nVR9_mXxGScKX9Hw7AWW-1">
+                    <mxGeometry y="800" width="290" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SXsQSm-4WU4x8w_OT-L-12" value="&lt;h1&gt;&lt;span style=&quot;font-size: 36px&quot;&gt;recoveryCheck&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" vertex="1" parent="nVR9_mXxGScKX9Hw7AWW-1">
+                    <mxGeometry x="320" y="800" width="330" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="el05boTv2VLkRrnL5mgZ-0" value="&lt;h1&gt;&lt;span style=&quot;font-size: 36px&quot;&gt;startGame&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=24;fontColor=#ffffff;" vertex="1" parent="nVR9_mXxGScKX9Hw7AWW-1">
+                    <mxGeometry y="-300" width="330" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

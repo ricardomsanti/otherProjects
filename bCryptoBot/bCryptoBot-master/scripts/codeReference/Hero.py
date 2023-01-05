@@ -1,0 +1,51 @@
+
+class Hero:
+    def __init__(self, \
+                Conta = None,\
+                ID = None,\
+                Vida = None,\
+                Power = None,\
+                Speed = None,\
+                Stamina = None,\
+                BombNumb = None,\
+                BombRange = None,\
+                Extra1 = None,\
+                Extra2 = None,\
+                Extra3 = None,\
+                Extra4 = None,\
+                Extra5 = None,\
+                CHARGE_CHECK = None,\
+                TIPO_COMUM = None,\
+                REC_H = None,\
+                TOTAL_MIN = None,\
+                TOTAL_HORA = None):
+        self.REC_H = REC_H ,
+        self.TOTAL_MIN = TOTAL_MIN ,
+        self.TOTAL_HORA = TOTAL_HORA,
+        self.IMG = ""
+        self.setTime = ""
+        self.rescueTime = ""
+        self.wakeTime = ""
+        self.Conta = Conta ,
+        self.ID = ID ,
+        self.Vida = Vida ,
+        self.Power = Power ,
+        self.Speed = Speed ,
+        self.Stamina = Stamina ,
+        self.BombNumb = BombNumb ,
+        self.BombRange = BombRange ,
+        self.Extra1 = Extra1 ,
+        self.Extra2 = Extra2 ,
+        self.Extra3 = Extra3 ,
+        self.Extra4 = Extra4 ,
+        self.Extra5 = Extra5 ,
+        self.CHARGE_CHECK = CHARGE_CHECK ,
+        self.TIPO_COMUM = TIPO_COMUM ,
+        self.REC_H = REC_H ,
+        self.TOTAL_MIN = TOTAL_MIN ,
+        self.TOTAL_HORA = TOTAL_HORA,
+        self.IMG = ""
+        self.setTime = ""
+        self.rescueTime = ""
+        self.wakeTime = ""
+    
