@@ -1,0 +1,58 @@
+{
+  "id": "1007ef5a-77b9-4470-bf3b-c87112fe4b84",
+  "version": "2.0",
+  "name": "https://tinder.com/app/recs",
+  "url": "https://tinder.com",
+  "tests": [{
+    "id": "6ddfbedd-f15b-4fc8-b647-03e339c28418",
+    "name": "TindeFinal",
+    "commands": [{
+      "id": "f3f38063-0a53-4f53-a52d-64a91b61133e",
+      "comment": "",
+      "command": "open",
+      "target": "/app/recs",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d453dc21-93a3-4ace-944a-db5a268e5478",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1365x727",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95c8ef22-859e-42a5-a6ec-b6e421f6ed7c",
+      "comment": "",
+      "command": "times",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37f42cd0-8f83-46d5-9512-c8105863a3a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Mx\\(a\\):nth-child(4) .Scale\\(\\.5\\)",
+      "targets": [
+        ["css=.Mx\\(a\\):nth-child(4) .Scale\\(\\.5\\)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee8ef9a-540f-4d77-88c0-fc922ca5532a",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ac4e6d4-b3d0-43f0-9f79-7fe93f2790f6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6ddfbedd-f15b-4fc8-b647-03e339c28418"]
+  }],
+  "urls": ["https://tinder.com/"],
+  "plugins": []
+}

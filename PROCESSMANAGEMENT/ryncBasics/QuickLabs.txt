@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+import subprocess
+import os
+from multiprocessing import Pool
+
+#------------------------------------------------VARIABLES
+
+tasks = []
+src = "/data/prod/"
+dest = "/data/prod_backup/"
+
+d = os.walk(src)
+
+#------------------------------------------------LIST FUNCTION
+
+def run(task):
+        subprocess.call(["rsync","-zvh", task, dest])
+        print("Handling {}".format(task))
+
+
+#------------------------------------------------TASKLIST CREATOR
+
+def taskList(src):
+
+        tasks = []
+        w = os.walk(src)
+        for  path, dirName, file in  w:
+                if len(file) != 0:
+                        for x in file:
+                                task = (str(path) + "/" + str(x))
+                                tasks.append(task)
+        return tasks
+#----------------------------------------------------
+if __name__ == "__main__":
+
+        List = taskList(src)
+        p  = Pool(len(List))
+        p.map(run, List)
+
+
+
+
